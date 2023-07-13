@@ -22,8 +22,9 @@ import { NgxStarRatingModule } from 'ngx-star-rating';
         BrowserAnimationsModule,
         FormsModule,
         RouterModule.forRoot(AppRoutes, {
-            useHash: true
-        }),
+    useHash: true,
+    relativeLinkResolution: 'legacy'
+}),
         NgbModule,
         HttpClientModule,
         SidebarModule,
